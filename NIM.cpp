@@ -1,4 +1,6 @@
 //NIM dabs október 1997
+//Contributed to by: rthor (http://www.github.com/rthor) for an university assignment.
+
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
