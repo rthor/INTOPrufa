@@ -35,11 +35,11 @@ int main( )
 	do
 	{
 		cout << endl << endl << endl;
-		cout << "                ADALVALMYND " << endl << endl;
-		cout << "                      1. Spila NIM" << endl;
-		cout << "                      2. Birta reglurnar i NIM" << endl;
-		cout << "                      3. Haetta " << endl << endl;
-		cout << "                      Veldu 1, 2 eda 3:" << endl << endl;
+		cout << "ADALVALMYND " << endl << endl;
+		cout << "\t1. Spila NIM" << endl;
+		cout << "\t2. Birta reglurnar i NIM" << endl;
+		cout << "\t3. Haetta " << endl << endl;
+		cout << "\tVeldu 1, 2 eda 3:" << endl << endl;
 		cin >> val;
 		switch ( val )
 		{
@@ -93,7 +93,7 @@ void spila( )
 
 void hjalp( )
 {
-	cout << "              UM NIM - LEIKINN " << endl << endl;
+	cout << "UM NIM - LEIKINN " << endl << endl;
 	cout << "Leikurinn NIM er upprunninn fra Asiu thar sem hann var" << endl;
 	cout << "leikinn med steinvolum.  Reglurnar eru thessar: " << endl;
 	cout << "Keppendur setja einhvern fjolda af eldspytum i hrugur " << endl;
@@ -202,11 +202,11 @@ void tolva( int* hruga )
 
 	if ( eldspytur > 1 )
 	{
-		cout << "      Eg tek " << eldspytur << " eldspytur ur hrugu nr. ";
+		cout << "Eg tek " << eldspytur << " eldspytur ur hrugu nr. ";
 	}
 	else 
 	{
-		cout << "      Eg tek " << eldspytur << " eldspytu ur hrugu nr. ";
+		cout << "Eg tek " << eldspytur << " eldspytu ur hrugu nr. ";
 	}
 	cout << hrugunumer << "." << endl;
 
